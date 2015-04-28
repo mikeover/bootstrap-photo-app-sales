@@ -14,7 +14,7 @@ section {
 .jumbotron {
   background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
   color: white;
-  height: 500px;
+  height: 598px;
   overflow: none;
 }
 .jumbotron h1 {
@@ -83,12 +83,19 @@ footer p {
 /* MEIDA QUERIES */
 
 @media(max-width: 1200px){
-
+  .jumbotron {
+    height: 500px !important;
+    background-size: 100% 100%;
+  }
 }
 
 @media(max-width: 991px){
   .showcase-img {
      display: none;
+  }
+  .jumbotron {
+    height: 400px !important;
+    background-size: 100% 100%;
   }
 }
 
